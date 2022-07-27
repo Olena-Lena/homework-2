@@ -1,0 +1,145 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --basic-color-font: #212121;
+  --secondary-color-font: #757575;
+  --color-accent: #2196F3;}
+
+.list {list-style: none;}
+
+.link {text-decoration: none;}
+
+/*=======HEADER=======*/
+
+.logo {font-family: 'Raleway', sans-serif;
+  color: #000000;
+}
+
+.main-logo {color:var(--color-accent)}
+
+.nav-list { 
+font-family:var(--main-font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--basic-color-font);
+}
+
+.nav-list:hover, 
+.nav-list:focus 
+{
+color: var(--color-accent);
+}
+
+.contact-mail {
+font-family: var(--main-font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-color-font);}
+
+.contact-mail:hover,
+.contact-mail:focus {
+color: var(--color-accent)
+}
+
+.contact-number {
+font-family: var(--main-font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-color-font);}
+
+.contact-number:hover,
+.contact-number:focus 
+{color: var(--color-accent);}
+
+/*=======END HEADER=======*/
+
+/*=======START HERO=======*/
+
+.hero {color: #2F303A;}
+
+.main-title {
+font-family: var(--main-font-family);
+font-style: Black;
+font-size: 44px;
+line-height: 1.36;
+
+/*color: #FFFFFF;*/
+}
+
+.modal-btn {font-family: var(--main-font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+color: #FFFFFF;
+cursor: pointer;}
+
+.modal-btn:hover,
+.modal-btn:focus
+{background: var(--color-accent)}
+
+/*=======END HERO=======*/
+
+/*=======SECTION BENEFITS=======*/
+
+/*.benefits {background:#E5E5E5;}*/
+
+.subtitle {
+font-family: var(--main-font-family);
+font-style: 700;
+font-size: 14px;
+line height: 1.14;
+color: var (--basic-color-font)}
+
+.text {
+  font-family: var(--main-font-family);
+  font-style: regylar;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-color-font)}
+
+/*======= END SECTION BENEFITS=======*/
+
+/*=======SECTION FIELD=======*/
+
+/*======= END SECTION FIELD=======*/
+
+/*=======SECTION COMMAND=======*/
+
+/*=======END SECTION COMMAND=======*/
+
+/*=======FOOTER=======*/
+
+.address {
+font-family: var(--main-font-family);
+font-style: Regular;
+font-size: 14px;
+line-height: 1.71;
+/*color: #FFFFFF;*/}
+
+/*======= END FOOTER=======*/
+
+/*=======SECONDARY PADGE=======*/
+
+.secondary-text {
+font-family: var(--main-font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+
+color: var (--secondary-color-font);}
+
+.secondary-subtitle{
+font-family: var(--main-font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+
+color: var(--basic-color-font);}
