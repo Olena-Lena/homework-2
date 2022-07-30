@@ -8,6 +8,10 @@
 
 .link {text-decoration: none;}
 
+.body {
+font-size: 14px;
+line-height: 1.14;}
+
 /*=======HEADER=======*/
 
 .logo {font-family: 'Raleway', sans-serif;
@@ -19,8 +23,6 @@
 .nav-list { 
 font-family:var(--main-font-family);
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--basic-color-font);
 }
@@ -34,8 +36,6 @@ color: var(--color-accent);
 .contact-mail {
 font-family: var(--main-font-family);
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-color-font);}
 
@@ -47,8 +47,6 @@ color: var(--color-accent)
 .contact-number {
 font-family: var(--main-font-family);
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-color-font);}
 
@@ -92,8 +90,6 @@ cursor: pointer;}
 .subtitle {
 font-family: var(--main-font-family);
 font-style: 700;
-font-size: 14px;
-line height: 1.14;
 color: var (--basic-color-font)}
 
 .text {
@@ -139,7 +135,6 @@ color: var (--secondary-color-font);}
 font-family: var(--main-font-family);
 font-style: normal;
 font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
+
 
 color: var(--basic-color-font);}
