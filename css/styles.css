@@ -9,8 +9,10 @@
 .link {text-decoration: none;}
 
 .body {
+font-family: var(--main-font-family);
 font-size: 14px;
-line-height: 1.14;}
+line-height: 1.14;
+}
 
 /*=======HEADER=======*/
 
@@ -73,7 +75,6 @@ letter-spacing: 0.06em;
 }
 
 .modal-btn {font-family: var(--main-font-family);
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -92,7 +93,6 @@ cursor: pointer;}
 /*.benefits {background:#E5E5E5;}*/
 
 .subtitle {font-family: var(--main-font-family);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -102,7 +102,6 @@ cursor: pointer;}
   color: var(--basic-color-font);}
 
 .subtitle-team {font-family: var(--main-font-family);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -113,8 +112,6 @@ cursor: pointer;}
 
 .text {
 font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -123,8 +120,6 @@ font-family: var(--main-font-family);
 }
 
 .text-team {font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -166,8 +161,6 @@ line-height: 1.71;
 
 .secondary-text {
 font-family: var(--main-font-family);
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
@@ -176,7 +169,6 @@ color: var(--secondary-color-font);}
 
 .secondary-subtitle{
 font-family: var(--main-font-family);
-font-style: normal;
 font-weight: 700;
 letter-spacing: 0.06em;
 
@@ -189,6 +181,7 @@ color: var(--basic-color-font);}
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 
   color: #212121;
   background: #F5F4FA;}
