@@ -2,22 +2,29 @@
   --main-font-family: "Roboto", sans-serif;
   --basic-color-font: #212121;
   --secondary-color-font: #757575;
-  --color-accent: #2196F3;}
+  --color-accent: #2196F3;
+  --secondary-color-accent:#FFFFFF;
+  --main-beckground-color:#E5E5E5;}
 
 .list {list-style: none;}
 
 .link {text-decoration: none;}
 
-.body {
+body {
 font-family: var(--main-font-family);
 font-size: 14px;
 line-height: 1.14;
+background: var(--main-beckground-color);
+letter-spacing: 0.03em;
 }
 
 /*=======HEADER=======*/
 
 .logo {font-family: 'Raleway', sans-serif;
   color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height:1.19;
 }
 
 .main-logo {color:var(--color-accent)}
@@ -70,15 +77,16 @@ font-style: Black;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
+text-transform: uppercase;
 
-/*color: #FFFFFF;*/
+/*color: var(--secondary-color-accent);*/
 }
 
 .modal-btn {font-family: var(--main-font-family);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-color: #FFFFFF;
+color: var(--secondary-color-accent);
 background:var(--color-accent);
 cursor: pointer;}
 
@@ -96,7 +104,6 @@ cursor: pointer;}
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--basic-color-font);}
@@ -106,7 +113,6 @@ cursor: pointer;}
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color:var(--basic-color-font);}
 
@@ -114,7 +120,6 @@ cursor: pointer;}
 font-family: var(--main-font-family);
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-color-font);
 }
@@ -123,7 +128,6 @@ font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-color-font);}
 
@@ -132,7 +136,6 @@ font-family: var(--main-font-family);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   
   color: var(--basic-color-font);}
 
@@ -153,7 +156,7 @@ font-family: var(--main-font-family);
 font-style: Regular;
 font-size: 14px;
 line-height: 1.71;
-/*color: #FFFFFF;*/}
+/*color: var(--secondary-color-accent);*/}
 
 /*======= END FOOTER=======*/
 
@@ -163,7 +166,6 @@ line-height: 1.71;
 font-family: var(--main-font-family);
 font-size: 16px;
 line-height: 1.87;
-letter-spacing: 0.03em;
 
 color: var(--secondary-color-font);}
 
@@ -180,14 +182,13 @@ color: var(--basic-color-font);}
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--basic-color-font);
   background: #F5F4FA;}
 
 .filter-btn:hover,
 .filter-btn:focus {
   background: var(--color-accent);
-  color: #FFFFFF;
+  color: var(--secondary-color-accent);
   }
